@@ -1,0 +1,123 @@
+.page-home {
+  margin-left: 210px;
+}
+
+.video-home {
+  margin-left: 68px;
+  width: 320px;
+  height: 500px;
+  background-color: #999;
+  border-radius: 8px;
+}
+
+.icon-right-video {
+  margin-top: -340px;
+  margin-left: -100px;
+}
+
+.number-and-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  width: 50px;
+  margin-left: 515px;
+}
+
+.icon {
+  font-size: 2.2rem;
+  background-color: #f9f6f6;
+  padding: 14px;
+  border-radius: 50%;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.number {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.preview {
+  margin: 0px 70px 10px 0px;
+  width: 100%;
+  flex: 1;
+}
+
+.preview-item {
+  padding: 16px 0 10px 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  &:hover {
+    cursor: pointer;
+    background-color: #f9f6f6;
+  }
+}
+
+.preview-item-text {
+  margin-left: 8px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.tippy-video {
+  max-width: 700px;
+  display: flex;
+  padding-top: 20px;
+}
+.avatar {
+  max-height: 5.6rem;
+  max-width: auto;
+  border-radius: 50%;
+  margin-right: 6px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.avatar-username-title-video {
+  display: flex;
+  line-height: 22px;
+}
+
+.username-title-video {
+  max-width: fit-content;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  &:hover {
+    cursor: pointer;
+    h4 {
+      text-decoration: underline;
+    }
+  }
+  h4 {
+    font-size: 1.8rem;
+    margin-right: 4px;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: -3px;
+  }
+}
+
+.title-video {
+  max-width: 500px;
+  font-size: 1.6rem;
+  strong:hover {
+    text-decoration: underline #333;
+  }
+}
+
+.follow-btn {
+  margin: 0 0 50px 0;
+  padding: 8px 24px;
+  align-items: center;
+}
